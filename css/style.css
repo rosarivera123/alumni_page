@@ -1,10 +1,40 @@
-img{
+
+/*change the width and align carousel to center*/
+#myCarousel{
+width:750px;
+margin:0 auto;
+}
+/*makes image in carousel go to the center*/
+.carousel-inner>.item>img, .carousel-inner>.item>a>img{
 	margin:0 auto;
 }
-#myCarousel{
-width:1000px;
-margin:0 auto;
+/*makes image of lia go to center*/
+.row5{
+	text-align: center;
+}
+/*puts the words in the center*/
+p{
+	text-align: center;
+}
+ul,ol{
+	text-align:center;
 }
 .col-md-8{
 	text-align: center;
 }
+h1{
+	text-align: center;
+}
+.row7{
+text-align: center;
+}
+.row8{
+text-align: center;
+}
+.row9{
+text-align: center;
+}
+.row10{
+text-align: center;
+}
+
